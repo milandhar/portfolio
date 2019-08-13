@@ -7,10 +7,22 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
+#mtn {
+
+}
+
+#mtn-slider{
+  vertical-align: top !important;
+}
+
+#resume-btn{
+  margin-top: 120px !important;
+}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
