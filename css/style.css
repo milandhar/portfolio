@@ -15,6 +15,10 @@
 
 }
 
+svg {
+
+}
+
 #mtn-slider{
   vertical-align: top !important;
 }
@@ -1438,4 +1442,5 @@ body.offcanvas {
   padding: 10px !important; }
 
 .js .animate-box {
+  margin-bottom: 50px;
   opacity: 0; }
