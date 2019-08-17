@@ -15,6 +15,10 @@
   vertical-align: middle;
 }
 
+.blog-entry img {
+  max-height: 170px;
+}
+
 #Linkedin{
   padding-top: 2px;
   height: 12px;
