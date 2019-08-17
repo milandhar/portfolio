@@ -11,8 +11,22 @@
 *	Edit this section
 *
 * ======================================================= */
-#mtn {
+.icon span {
+  vertical-align: middle;
+}
 
+.blog-entry img {
+  max-height: 170px;
+}
+
+#Linkedin{
+  padding-top: 2px;
+  height: 12px;
+}
+
+#chrome-store-img{
+  height: 20px;
+  padding-bottom: 3px;
 }
 
 svg {
