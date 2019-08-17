@@ -11,8 +11,18 @@
 *	Edit this section
 *
 * ======================================================= */
-#mtn {
+.icon span {
+  vertical-align: middle;
+}
 
+#Linkedin{
+  padding-top: 2px;
+  height: 12px;
+}
+
+#chrome-store-img{
+  height: 20px;
+  padding-bottom: 3px;
 }
 
 #mtn-slider{
