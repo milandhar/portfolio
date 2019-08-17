@@ -557,7 +557,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="project" style="background-image: url(images/map4.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">EffectiveDonate</a></h3>
+										<h3><a href="#">EffectiveDonate</a></h3>
 										<span>Website</span>
 										<p class="icon">
 											<span><a target="_blank" href="https://github.com/milandhar/mod5-project-frontend"><i class="devicon-github-plain colored"></i></a></span>
@@ -572,7 +572,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="project" style="background-image: url(images/BarkBrowser3.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">BarkBrowser</a></h3>
+										<h3><a href="#">BarkBrowser</a></h3>
 										<span>Website</span>
 										<p class="icon">
 											<span><a target="_blank" href="https://github.com/milandhar/mod4-project-backend"><i class="devicon-github-plain colored"></i></a></span>
@@ -587,7 +587,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="project" style="background-image: url(images/Extension2.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Break Alarm</a></h3>
+										<h3><a href="#">Break Alarm</a></h3>
 										<span>Chrome Extension</span>
 										<p class="icon">
 											<span><a target="_blank" href="https://github.com/ButlerBorst/mod3-frontend2-project"><i class="devicon-github-plain colored"></i></a></span>
@@ -768,22 +768,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="mailto:milan.dhar@gmail.com" method="post" enctype="text/plain">
+									<form class="gform" action="https://script.google.com/macros/s/AKfycbxtmu_ZtdSEHKQasGsbNentliFPzWFwzTxB7ldynrwm1Gpbf_c/exec" method="POST" data-email="example@email.net">
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
+											<input name="name" type="text" class="form-control" placeholder="Name">
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
+											<input required name="email" type="text" class="form-control" placeholder="Email">
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
+											<input name= type="text" class="form-control" placeholder="Subject">
 										</div>
 										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+											<input id="honeypot" type="text" name="honeypot" value="" />
+										</div>
+										<div class="form-group">
+											<textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 										</div>
 										<div class="form-group">
 											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
 										</div>
+										<!-- Customise the Thankyou Message People See when they submit the form: -->
+									 <div class="thankyou_message" style="display:none;">
+										 <h2><em>Thanks</em> for contacting me!
+											 I will get back to you soon!</h2>
+									 </div>
 									</form>
 								</div>
 
