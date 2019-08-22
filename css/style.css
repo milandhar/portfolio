@@ -336,9 +336,62 @@ figure {
               #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
                 margin-bottom: 300px;; }
               }
-          @media screen and (max-width: 768px) {
+          @media screen and (max-width: 992px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 28px; } }
+              margin-bottom: 5px;
+              font-size: 56px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              margin-bottom: 370px;}
+          }
+          @media screen and (max-width: 860px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+              padding: 1.1em;
+            }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              margin-bottom: 600px;}
+            #needle-boxes{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+            /* #github-p{
+              padding-left: -10px;
+            }
+            #linkedin-p{
+              text-align: right;} */
+          }
+          @media screen and (max-width: 767px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 56px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              font-size: 28px;
+              margin-bottom: 500px;}
+            #resume-btn {
+              width: 40%;
+            }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner a {
+              font-size: 18px !important;}
+          }
+
+          @media screen and (max-width: 480px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 56px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              font-size: 28px;
+              margin-bottom: 600px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+              padding: 0;
+              padding-top: 0.5em;
+            }
+            #resume-btn {
+              width: 70%;
+            }
+            #colorlib-hero #needle-boxes a {
+              font-size: 11px !important;}
+          }
+          /* @media screen and (max-width: 768px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 28px; } } */
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
@@ -374,9 +427,9 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
-          @media screen and (max-width: 768px) {
+          /* @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 100%; } }
+              width: 100%; } } */
 
 body.offcanvas {
   overflow-x: hidden; }
