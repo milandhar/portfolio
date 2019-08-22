@@ -330,15 +330,187 @@ figure {
           line-height: 1.3;
           font-weight: 700; }
           @media screen and (max-width: 1200px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              margin-bottom: 5px;
+              font-size: 50px;}
               #resume-btn {
                 margin-top: 80px;
               ; }
               #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
                 margin-bottom: 300px;; }
               }
+          @media screen and (max-width: 1108px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              margin-bottom: 5px;
+              font-size: 40px;}
+              }
+          @media screen and (max-width: 1024px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              margin-bottom: 480px;}
+              }
+          @media screen and (max-width: 992px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              margin-bottom: 5px;
+              font-size: 40px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              margin-bottom: 370px;}
+            #needle-slider {
+              padding-top: .5em !important;}
+            #resume-btn {
+              margin-top: 100px;
+            }
+          }
+          /* @media screen and (max-width: 975px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              margin-bottom: 5px;
+              font-size: 38px;}
+          } */
+          @media screen and (max-width: 860px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+              padding: 1.1em;
+            }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              margin-bottom: 600px;}
+            #needle-boxes{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+            /* #github-p{
+              padding-left: -10px;
+            }
+            #linkedin-p{
+              text-align: right;} */
+          }
+          @media screen and (max-width: 790px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 50px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+              padding-left: 0px;
+              padding-right: 0px;}
+            #resume-btn {
+              width: 60%;
+            }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner a {
+              font-size: 18px !important;}
+            #needle-boxes p{
+              font-size: 10px;
+            }
+          }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 28px; } }
+              font-size: 56px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              font-size: 28px;
+              margin-bottom: 500px;
+              text-align: left;}
+            #resume-btn {
+              margin-top: 600px;
+              width: 60%;
+            }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner a {
+              font-size: 18px !important;}
+          }
+
+          @media screen and (max-width: 480px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 56px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              font-size: 28px;
+              margin-bottom: 600px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+              padding: 0;
+              padding-top: 0.5em;
+            }
+            #resume-btn {
+              width: 70%;
+            }
+            #colorlib-hero #needle-boxes a {
+              font-size: 11px !important;}
+          }
+
+          @media screen and (max-width: 414px) {
+            #resume-btn {
+              margin-top: 400px;
+            }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 30px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner{
+              padding-top: 2.1em !important;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              text-align: center;
+              margin-bottom: 380px;}
+          }
+
+          @media screen and (max-width: 411px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 48px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner{
+              padding-top: 2.1em !important;}
+            #needle-slider h1 {
+              font-size: 32px !important;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              text-align: center;
+              margin-bottom: 420px;}
+          }
+
+          @media screen and (max-width: 375px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner{
+              padding-top: 1.5em !important;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 40px;}
+            #needle-slider h1 {
+              font-size: 32px !important;
+              margin-bottom: 0;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              text-align: center;
+              font-size: 16px !important;
+              margin-bottom: 380px;}
+            #colorlib-hero .flexslider .slider-text {
+              padding-left: 5px;
+              padding-right: 5px;}
+            #resume-btn {
+              margin-top: 450px;
+              width: 90%;
+            }
+            #needle-slider #needle-boxes p {
+              padding: 0 !important;
+            }
+          }
+
+          @media screen and (max-width: 360px) {
+
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner{
+              padding-top: 0 !important;}
+            #colorlib-hero .flexslider .slider-text > #needle-slider h1 {
+              font-size: 20px !important;
+              margin-bottom: 0;}
+            #colorlib-hero .flexslider .slider-text > #needle-slider h2 {
+              font-size: 12px !important;
+              margin-bottom: 290px !important;}
+          }
+
+          @media screen and (max-width: 320px) {
+            #resume-btn {
+              margin-top: 400px;
+            }
+            #needle-slider h1 {
+              font-size: 20px !important;
+              }
+            #needle-boxes a {
+              font-size: 8px !important;
+              }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner{
+              top: 10px !important;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              font-size: 14px !important;
+              text-align: center;
+              margin-bottom: 20px;
+              padding-bottom: 380px !important;}
+          }
+          /* @media screen and (max-width: 768px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 28px; } } */
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
@@ -364,7 +536,7 @@ figure {
           text-transform: uppercase;
           letter-spacing: 2px;
           color: #000;
-          padding: 10px 15px !important;
+          padding: 5px !important;
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
@@ -374,9 +546,9 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
-          @media screen and (max-width: 768px) {
+          /* @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 100%; } }
+              width: 100%; } } */
 
 body.offcanvas {
   overflow-x: hidden; }
