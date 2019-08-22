@@ -330,19 +330,37 @@ figure {
           line-height: 1.3;
           font-weight: 700; }
           @media screen and (max-width: 1200px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              margin-bottom: 5px;
+              font-size: 50px;}
               #resume-btn {
                 margin-top: 80px;
               ; }
               #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
                 margin-bottom: 300px;; }
               }
+          @media screen and (max-width: 1108px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              margin-bottom: 5px;
+              font-size: 40px;}
+              }
           @media screen and (max-width: 992px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               margin-bottom: 5px;
-              font-size: 56px;}
+              font-size: 40px;}
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
               margin-bottom: 370px;}
+            #needle-slider {
+              padding-top: .5em !important;}
+            #resume-btn {
+              margin-top: 100px;
+            }
           }
+          /* @media screen and (max-width: 975px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              margin-bottom: 5px;
+              font-size: 38px;}
+          } */
           @media screen and (max-width: 860px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner {
               padding: 1.1em;
@@ -360,14 +378,31 @@ figure {
             #linkedin-p{
               text-align: right;} */
           }
+          @media screen and (max-width: 790px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+              font-size: 50px;}
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+              padding-left: 0px;
+              padding-right: 0px;}
+            #resume-btn {
+              width: 60%;
+            }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner a {
+              font-size: 18px !important;}
+            #needle-boxes p{
+              font-size: 10px;
+            }
+          }
           @media screen and (max-width: 767px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 56px;}
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
               font-size: 28px;
-              margin-bottom: 500px;}
+              margin-bottom: 500px;
+              text-align: left;}
             #resume-btn {
-              width: 40%;
+              margin-top: 300px;
+              width: 60%;
             }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner a {
               font-size: 18px !important;}
@@ -388,6 +423,12 @@ figure {
             }
             #colorlib-hero #needle-boxes a {
               font-size: 11px !important;}
+          }
+
+          @media screen and (max-width: 360px) {
+            #resume-btn {
+              width: 90%;
+            }
           }
           /* @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
