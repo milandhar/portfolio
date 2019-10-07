@@ -25,6 +25,8 @@
 
 .blog-entry img {
   max-height: 170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #Linkedin{
