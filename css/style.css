@@ -23,6 +23,17 @@
   color: #373F47 !important;
 }
 
+.dispnon {
+  display: none
+  /* opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  z-index: -1; */
+}
+
 .blog-entry img {
   max-height: 170px;
   margin-left: auto;
